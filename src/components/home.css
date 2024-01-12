@@ -1,0 +1,26 @@
+.home{
+    width: 70vw;
+    display: grid;
+    place-items: center;
+}
+.home h1{
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+    background-color: rgb(114, 166, 245);
+}
+#logoMain{
+    border-radius: 15px;
+    width: 500px;
+    border: 100px solid rgb(135, 228, 135);
+}
+#welcome{
+    position: relative;
+    top: 70px;
+    left: -170px;
+}
+#tagline{
+    position: relative;
+    bottom: 70px;
+    right: -170px;
+}

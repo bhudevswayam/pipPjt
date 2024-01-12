@@ -1,0 +1,15 @@
+.history{
+    display: grid;
+    width: 70vw;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.detail{
+    width: 300px;
+    background-color: rgb(114, 166, 245);
+    font-size: 13px;
+    padding: 15px;
+    border-radius: 15px;color: white;
+    border: 3px solid rgb(0, 15, 57);
+}

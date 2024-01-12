@@ -1,0 +1,51 @@
+.report{
+    width: 70vw;
+    display: grid;
+    place-items: center;
+}
+.countrySelector{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr  ;
+}
+#country-select{
+    background-color: rgb(114, 166, 245);
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+.documents{
+    color: aliceblue;
+    padding: 30px;
+    border: 2px solid grey;
+    display: grid;
+    width: 50vw;
+    grid-template-columns: 65% 30%;
+    gap: 30px;
+    border-radius: 25px;
+    background-color: rgb(114, 166, 245);
+    margin-bottom: 15px;
+}
+.documents button{
+    border: 2px solid white;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px black;
+    background-color: rgb(189, 175, 249);
+    width: 200px;
+    box-shadow: 5px 5px 5px black;
+}
+#compile{
+    border: 2px solid white;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px black;
+    background-color: rgb(16, 10, 43);
+    width: 300px;
+    position: absolute;
+    bottom: 2px;
+}
+#compile:hover{
+    border: 2px solid rgb(16, 10, 43);
+    background-color: white;
+    color: rgb(16, 10, 43);
+}
