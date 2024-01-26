@@ -1,4 +1,8 @@
 .container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
