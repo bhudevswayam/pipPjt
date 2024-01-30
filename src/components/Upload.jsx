@@ -31,6 +31,9 @@ const FileUpload = () => {
       await axios.post('http://localhost:3000/upload', formData);
 
       setMessage('File uploaded successfully!');
+      setFile('')
+      setFileNumber('')
+      setName('')
     } catch (error) {
       setMessage('Error uploading file');
     }
