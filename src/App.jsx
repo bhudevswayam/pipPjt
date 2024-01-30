@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Report from './components/Report';
 import History from './components/History';
 import Userguide from './components/Userguide';
+import FileUploadForm from './components/Upload';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="report-generator" element={<Report />} />
           <Route path="history" element={<History />} />
           <Route path="user-guide" element={<Userguide />} />
+          <Route path='upload' element={<FileUploadForm />} />
       </Routes>
     </BrowserRouter>
     </>

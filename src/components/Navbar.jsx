@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link to="/history"><button><SlGraph className='icons'/>  History</button></Link>
         <Link to="/user-guide"><button><LuMenuSquare className='icons'/>  User Guide</button></Link>
         <div id='underline'></div>
-        <Link to="/settings"><button><MdOutlineSettings className='icons'/>  Application Settings</button></Link>
+        <Link to="/upload"><button><MdOutlineSettings className='icons'/>  Upload Documents</button></Link>
         <Link to="/help"><button><FaHandsHelping className='icons'/>  Get Technical Help</button></Link>
     <Outlet></Outlet>
     </div>
